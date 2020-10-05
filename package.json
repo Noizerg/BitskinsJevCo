@@ -1,0 +1,18 @@
+{
+  "name": "bitskins_node",
+  "version": "1.0.0",
+  "description": "bitskins bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index"
+  },
+  "author": "SgtNick Jevachka",
+  "license": "ISC",
+  "dependencies": {
+    "notp": "^2.0.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "thirty-two": "^1.0.2"
+  }
+}
