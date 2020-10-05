@@ -1,18 +1,21 @@
 {
-  "name": "bitskins_node",
-  "version": "1.0.0",
-  "description": "bitskins bot",
-  "main": "index.js",
+  "name": "bitskins-trade-bot",
+  "version": "0.0.1",
+  "description": "BitSkins trade bot using API",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index"
+    "start": "tsc && node ./dist/index.js"
   },
-  "author": "SgtNick Jevachka",
+  "author": "SgtNick, Jevachka",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^14.11.2",
+    "node-fetch": "^2.6.1",
     "notp": "^2.0.3",
-    "request": "^2.88.2",
-    "request-promise": "^4.2.6",
     "thirty-two": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.7",
+    "typescript": "^4.0.3"
   }
 }
